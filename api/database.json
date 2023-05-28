@@ -1,0 +1,30 @@
+{
+  "meals": [
+    {
+      "name": "Breakfast",
+      "id": 1
+    },
+    {
+      "name": "Lunch",
+      "id": 2
+    },
+    {
+      "name": "Dinner",
+      "id": 3
+    },
+    {
+      "name": "Dessert",
+      "id": 4
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Pancake",
+      "author": "Matthew",
+      "meal": "Breakfast",
+      "ingredients": "stuff",
+      "directions": "do it",
+      "id": 1
+    }
+  ]
+}
