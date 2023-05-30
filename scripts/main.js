@@ -1,12 +1,6 @@
 import { recipeFormComponent } from "./recipes/recipeForm.js";
 import { getMeals } from "./meals/mealProvider.js";
+import { getRecipes } from "./recipes/recipeProvider.js";
+import { recipeList } from "./recipes/recipeList.js";
 
-const loadData = () => {
-  return getMeals();
-};
-
-const renderInitialComponents = () => {
-  recipeFormComponent();
-};
-
-loadData().then(renderInitialComponents);
+getMeals().then(getRecipes).then(recipeFormComponent).then(recipeList);

@@ -27,7 +27,6 @@ export const recipeFormComponent = () => {
   const render = () => {
     // const meals = getMeals().then(useMeals);
     const meals = useMeals();
-    console.log(meals);
     eventTarget.innerHTML = `
     <div class="recipe-form">
         <input id="recipe-form-id" type="hidden"/>
