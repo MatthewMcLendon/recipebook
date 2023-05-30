@@ -29,5 +29,5 @@ export const saveRecipe = (recipe) => {
     body: JSON.stringify(recipe),
   }).then(getRecipes);
 
-  // recipe component, recipe list, merge branch, new branch, delete route on recipe, merge branch, new branch, post route
+  //delete route on recipe, merge branch, new branch, post route
 };
