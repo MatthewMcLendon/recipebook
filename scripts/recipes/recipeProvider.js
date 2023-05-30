@@ -4,7 +4,9 @@ const setRecipes = (recipesArray) => {
   recipies = recipesArray.slice();
 };
 
-export const useRecipes = () => recipies.slice();
+export const useRecipes = () => {
+  return recipies;
+};
 
 export const getRecipes = () => {
   return fetch("http://localhost:8088/recipes")
@@ -26,4 +28,6 @@ export const saveRecipe = (recipe) => {
     },
     body: JSON.stringify(recipe),
   }).then(getRecipes);
+
+  // recipe component, recipe list, merge branch, new branch, delete route on recipe, merge branch, new branch, post route
 };

@@ -1,12 +1,10 @@
 let meals = [];
 
-export const setMeals = (mealsArray) => {
+const setMeals = (mealsArray) => {
   meals = mealsArray.slice();
-  console.log(meals);
 };
 
 export const useMeals = () => {
-  console.log(meals);
   return meals;
 };
 
