@@ -82,7 +82,7 @@ export const recipeFormComponent = () => {
     eventTarget.innerHTML = `
       <div class="recipe-form">
           <label for="recipe-form-title">Title:</label>
-          <input id="recipe-form-title" type="text" value=${recipe.title} />
+          <input id="recipe-form-title" type="text"/>
           <label for="recipe-form-author">Submitted by:</label>
           <input id="recipe-form-author" type="text" value=${recipe.author} />
           <label for="recipe-form-dropdown">Meal Category:</label>
@@ -103,6 +103,9 @@ export const recipeFormComponent = () => {
       `;
     const select = document.querySelector(".recipe-form-dropdown");
     select.value = `${recipe.meal}`;
+
+    const title = document.querySelector("#recipe-form-title");
+    title.value = `${recipe.title}`;
   };
 
   const optionList = (meals) => {
