@@ -29,17 +29,17 @@
     {
       "title": "Test 3",
       "author": "Matthew",
-      "meal": "Lunch",
+      "meal": "Dinner",
       "ingredients": "stuff",
       "directions": "things",
       "id": 3
     },
     {
-      "title": "Test 4",
-      "author": "jfkdlsa;",
+      "title": "Test 8",
+      "author": "Matthew",
       "meal": "Lunch",
-      "ingredients": "lk;jasdfkl",
-      "directions": "jklfsdlkjsdflkj",
+      "ingredients": "This is a test",
+      "directions": "This is also a test",
       "id": 6
     },
     {

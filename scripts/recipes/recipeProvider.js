@@ -28,6 +28,20 @@ export const saveRecipe = (recipe) => {
     },
     body: JSON.stringify(recipe),
   }).then(getRecipes);
+};
 
-  //delete route on recipe, merge branch, new branch, post route
+export const updateRecipe = (recipe) => {
+  return fetch(`http://localhost:8088/recipes/${recipe.id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(recipe),
+  }).then(getRecipes);
+};
+
+export const getRecipeByID = (recipeID) => {
+  return fetch(`http://localhost:8088/recipes/${recipeID}`).then((response) =>
+    response.json()
+  );
 };
