@@ -19,7 +19,14 @@ export const recipeList = () => {
       `deleteRecipe${clickEvent.target.parentElement.id}`
     ) {
       console.log("Deleting", clickEvent.target.parentElement.id);
-      // deleteRecipe(clickEvent.target.parentElement.id).then(recipeList);
+      deleteRecipe(clickEvent.target.parentElement.id)
+        .then(() => {
+          const message = new CustomEvent("recipeDeleted");
+          eventHub.dispatchEvent.message;
+        })
+        .then(() => {
+          location.reload();
+        });
     }
   });
 };

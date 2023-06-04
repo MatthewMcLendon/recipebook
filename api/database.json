@@ -35,52 +35,28 @@
       "id": 3
     },
     {
-      "title": "Test 1",
-      "author": ";lkasjf",
-      "meal": "Dinner",
-      "ingredients": "jfkdlsa;",
-      "directions": "ouierwoiu",
-      "id": 4
-    },
-    {
-      "title": "Test 2",
-      "author": "jfdksl;a",
+      "title": "Test 4",
+      "author": "jfkdlsa;",
       "meal": "Lunch",
-      "ingredients": "jfdksla;",
-      "directions": "lk;asjdfioweio",
-      "id": 5
-    },
-    {
-      "title": "Test 2",
-      "author": "jfdksl;a",
-      "meal": "Lunch",
-      "ingredients": "jfdksla;",
-      "directions": "lk;asjdfioweio",
+      "ingredients": "lk;jasdfkl",
+      "directions": "jklfsdlkjsdflkj",
       "id": 6
     },
     {
-      "title": "Test 3",
-      "author": "jklsdfljkfsd",
+      "title": "Test 5",
+      "author": ";lkjsdflkjsfda",
       "meal": "Lunch",
-      "ingredients": "jhksdkjh",
-      "directions": "jkhsdfjkh",
+      "ingredients": "jklfdskljdfs",
+      "directions": "lkjsdfakljdfs",
       "id": 7
     },
     {
-      "title": "Test 4",
-      "author": "jklsdflkj;",
+      "title": "Test 7",
+      "author": "jkfdlkjfsdkjl",
       "meal": "Lunch",
-      "ingredients": "dslkjsdflkj",
-      "directions": "fdslkjsdfa",
+      "ingredients": "kldflkjdfs",
+      "directions": "lksdflkj",
       "id": 8
-    },
-    {
-      "title": "Test 5",
-      "author": "kljsfdaklj",
-      "meal": "Lunch",
-      "ingredients": "lkjsfadlkjsdfaljk",
-      "directions": "kljfsdlkjsdfaljk",
-      "id": 9
     }
   ]
 }

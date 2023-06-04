@@ -1,6 +1,5 @@
 import { useMeals } from "../meals/mealProvider.js";
 import { saveRecipe } from "./recipeProvider.js";
-import { recipeList } from "./recipeList.js";
 
 const eventHub = document.querySelector(".container");
 const eventTarget = document.querySelector(".recipe-form-container");
@@ -18,12 +17,14 @@ export const recipeFormComponent = () => {
         directions: document.querySelector("#recipe-form-directions").value,
       };
 
-      saveRecipe(newRecipe).then(() => {
-        const message = new CustomEvent("recipeCreated");
-        eventHub.dispatchEvent.message;
-      });
-      // .then(recipeFormComponent);
-      // .then(recipeList);
+      saveRecipe(newRecipe)
+        .then(() => {
+          const message = new CustomEvent("recipeCreated");
+          eventHub.dispatchEvent.message;
+        })
+        .then(() => {
+          location.reload();
+        });
     }
   });
 
