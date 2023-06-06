@@ -1,0 +1,22 @@
+body {
+  background-color: navy;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.recipe-form-container {
+  background-color: lightblue;
+  border-radius: 1rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+.recipe-card {
+  background-color: aliceblue;
+  border-radius: 1rem;
+  margin: 10px;
+  padding: 10px;
+}
